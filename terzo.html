@@ -1,0 +1,21 @@
+<HTML>
+<HEAD>
+<TITLE> Sommatore </TITLE>
+<SCRIPT TYPE="text/JavaScript">
+function sommaLi () {
+var value1 = document.addiziona.inputA.value;
+var value2 = document.addiziona.inputB.value;
+document.addiziona.output.value = (parseInt(value1) + parseInt(value2)) ;
+}
+</SCRIPT>
+</HEAD>
+<BODY>
+<FORM NAME= "addiziona">
+<INPUT TYPE="text" NAME="inputA" VALUE="0" SIZE=4><BR>
+<INPUT TYPE="text" NAME="inputB" VALUE="0" SIZE=4>
+<INPUT TYPE="button" VALUE="Somma" onClick="sommaLi()">
+<P>______________</P>
+<INPUT TYPE="text" NAME="output" SIZE=6><BR>
+</FORM>
+</BODY>
+</HTML>

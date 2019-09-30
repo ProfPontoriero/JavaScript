@@ -1,0 +1,24 @@
+<html>
+<head>
+<title> Calcolo dell'area di un triangolo </title>
+</head>
+<body>
+  <SCRIPT Language="JavaScript">
+        base=prompt("Fornire la lunghezza della base (usare il . al posto della , per i decimali): ","0")
+        if (isNaN(base))
+               document.write("Non hai scritto un numero - Programma terminato")
+        else
+           {
+               altezza=prompt("Fornire la l'altezza (usare . al posto della , per i decimali): ","0")
+               if (isNaN(altezza))
+                  document.write("Non hai scritto un numero - Programma terminato!")
+               else
+                  {
+                      document.write("L'area del triangolo è: "+base*altezza/2+"<BR>")
+                      Perimetro=(parseFloat(base)+parseFloat(altezza)+Math.sqrt(base*base+altezza*altezza))
+                      document.write("Il perimetro è: "+Perimetro)
+                  }
+           }
+  </SCRIPT> 
+</body>
+</html>
